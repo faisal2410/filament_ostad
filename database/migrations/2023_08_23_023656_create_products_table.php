@@ -22,7 +22,7 @@ return new class extends Migration
             $table->unsignedBigInteger('quantity');
             $table->decimal('price',10,2);
             $table->boolean('is_visible')->default(false);
-            $table->boolean('is_available')->default(false);
+            $table->boolean('is_featured')->default(false);
             $table->enum('type',['deliverable','downloadable'])->default('deliverable');
             $table->date('published_at');
 

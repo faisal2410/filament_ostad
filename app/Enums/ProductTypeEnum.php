@@ -3,7 +3,7 @@
 namespace App\Enums;
 
 enum ProductTypeEnum: string{
-    case Deliverable = 'deliverable';
-    
-    case Downloadable = 'downloadable';
+    case DELIVERABLE = 'deliverable';
+
+    case DOWNLOADABLE = 'downloadable';
 }
